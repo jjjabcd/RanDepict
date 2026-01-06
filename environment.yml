@@ -1,0 +1,25 @@
+name: randepict
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scikit-image
+  - pillow>=8.2
+  - tqdm
+  - rdkit=2023.09.*
+  - jpype1
+  - openjdk=11
+  - matplotlib
+  - imageio
+  - pip:
+      - imgaug
+      - ipyplot
+      - imagecorruptions
+      - epam-indigo
+      - pikachu-chem>=1.0.7
+      - omegaconf
+      - git+https://github.com/mathcom/RanDepict.git

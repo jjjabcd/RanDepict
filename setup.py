@@ -30,7 +30,9 @@ setuptools.setup(
         "pillow>=8.2.0",
         "pikachu-chem>=1.0.7",
         "omegaconf",
-        "typing-extensions;python_version<'3.8'"
+        "typing-extensions;python_version<'3.8'",
+        "pandas",
+        "tqdm"
     ],
     extras_require={
         "dev": ["tox", "pytest"],
