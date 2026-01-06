@@ -149,3 +149,7 @@ tags
 [._]*.un~
 
 .mypy_cache
+
+# Data (Large)
+data/
+nohup.out
